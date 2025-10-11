@@ -1,0 +1,90 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <LangVersion>preview</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="Lib\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Analyzer Include="Lib\BepInExUtils.Generator.dll"/>
+        <Reference Include="0Harmony">
+            <HintPath>..\HKSS.NoEnemies\Lib\0Harmony.dll</HintPath>
+        </Reference>
+        <Reference Include="Assembly-CSharp">
+            <HintPath>..\HKSS.NoEnemies\Lib\Assembly-CSharp.dll</HintPath>
+        </Reference>
+        <Reference Include="BepInEx">
+            <HintPath>..\HKSS.NoEnemies\Lib\BepInEx.dll</HintPath>
+        </Reference>
+        <Reference Include="BepInEx.Harmony">
+            <HintPath>..\HKSS.NoEnemies\Lib\BepInEx.Harmony.dll</HintPath>
+        </Reference>
+        <Reference Include="BepInExUtils">
+            <HintPath>..\HKSS.NoEnemies\Lib\BepInExUtils.dll</HintPath>
+        </Reference>
+        <Reference Include="HarmonyXInterop">
+            <HintPath>..\HKSS.NoEnemies\Lib\HarmonyXInterop.dll</HintPath>
+        </Reference>
+        <Reference Include="Mono.Cecil">
+            <HintPath>..\HKSS.NoEnemies\Lib\Mono.Cecil.dll</HintPath>
+        </Reference>
+        <Reference Include="Mono.Cecil.Mdb">
+            <HintPath>..\HKSS.NoEnemies\Lib\Mono.Cecil.Mdb.dll</HintPath>
+        </Reference>
+        <Reference Include="Mono.Cecil.Pdb">
+            <HintPath>..\HKSS.NoEnemies\Lib\Mono.Cecil.Pdb.dll</HintPath>
+        </Reference>
+        <Reference Include="Mono.Cecil.Rocks">
+            <HintPath>..\HKSS.NoEnemies\Lib\Mono.Cecil.Rocks.dll</HintPath>
+        </Reference>
+        <Reference Include="MonoMod.RuntimeDetour">
+            <HintPath>..\HKSS.NoEnemies\Lib\MonoMod.RuntimeDetour.dll</HintPath>
+        </Reference>
+        <Reference Include="MonoMod.Utils">
+            <HintPath>..\HKSS.NoEnemies\Lib\MonoMod.Utils.dll</HintPath>
+        </Reference>
+        <Reference Include="PlayMaker">
+            <HintPath>..\HKSS.NoEnemies\Lib\PlayMaker.dll</HintPath>
+        </Reference>
+        <Reference Include="TeamCherry.SharedUtils">
+            <HintPath>..\HKSS.NoEnemies\Lib\TeamCherry.SharedUtils.dll</HintPath>
+        </Reference>
+        <Reference Include="TeamCherry.TK2D">
+            <HintPath>..\HKSS.NoEnemies\Lib\TeamCherry.TK2D.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine">
+            <HintPath>..\HKSS.NoEnemies\Lib\UnityEngine.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.AudioModule">
+            <HintPath>..\HKSS.NoEnemies\Lib\UnityEngine.AudioModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+            <HintPath>..\HKSS.NoEnemies\Lib\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.InputLegacyModule">
+            <HintPath>..\HKSS.NoEnemies\Lib\UnityEngine.InputLegacyModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.InputModule">
+            <HintPath>..\HKSS.NoEnemies\Lib\UnityEngine.InputModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.Physics2DModule">
+            <HintPath>..\HKSS.NoEnemies\Lib\UnityEngine.Physics2DModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.PhysicsModule">
+            <HintPath>..\HKSS.NoEnemies\Lib\UnityEngine.PhysicsModule.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include=".github\workflows\pre-release.yml"/>
+        <Content Include=".github\workflows\release.yml"/>
+        <Content Include=".packaging\thunderstore.toml"/>
+    </ItemGroup>
+
+</Project>
