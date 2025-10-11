@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.2](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/compare/v0.0.1..v0.0.2) - 2025-10-11
+
+### ⚙️ Miscellaneous Tasks
+
+- *(workflows)* Add step to pull latest changes in release workflow - ([05d9d86](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/05d9d86cf6946ffbe50fc707034f4bb0ca5e986a))
+
+### Action
+
+- Update version in `Main.cs` and update `CHANGELOG.md` - ([0331ab3](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/0331ab3989abd61d62ec4fe7f89068c51d866cac))
+
+## New Contributors ❤️
+
+* @github-actions[bot] made their first contribution
+
 ## [0.0.1] - 2025-10-11
 
 ## New Contributors ❤️
