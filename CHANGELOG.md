@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.1.0](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/compare/v0.0.2..v0.1.0) - 2025-10-12
+
+### ⛰️  Features
+
+- Add `MoreInfosController` for enhanced hitbox rendering and debugging - ([f01c89f](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/f01c89f88c38f99dc83c82b432cc7b79568978eb))
+
+### ⚙️ Miscellaneous Tasks
+
+- *(generator)* Update BepInExUtils.Generator.dll - ([c3dd672](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/c3dd67223211fe4fcdda5a6822174f00fcacc9de))
+
+### Action
+
+- Update version in `Main.cs` and update `CHANGELOG.md` - ([0acc6ed](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/0acc6ed8bd7efcfdbdbac8c5e9f9b27fd8b76a8d))
+
+
 ## [0.0.2](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/compare/v0.0.1..v0.0.2) - 2025-10-11
 
 ### ⚙️ Miscellaneous Tasks

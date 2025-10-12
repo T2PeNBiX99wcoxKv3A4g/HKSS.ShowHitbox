@@ -11,7 +11,7 @@ namespace HKSS.ShowHitbox;
 public partial class Main
 {
     private const string SectionOptions = "Options";
-    private const string Version = "0.0.2";
+    private const string Version = "0.1.0";
 
     private void Update()
     {
