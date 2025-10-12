@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.1.1](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/compare/v0.1.0..v0.1.1) - 2025-10-12
+
+### 🐛 Bug Fixes
+
+- Add `MoreInfos` config - ([1db0b7c](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/1db0b7c3b508aa3cfaae6ba2079edea92358c77e))
+
+### Action
+
+- Update version in `Main.cs` and update `CHANGELOG.md` - ([76a810a](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/76a810ae3d25d75b2b932eb4c8e4836d03ba97c5))
+
+
 ## [0.1.0](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/compare/v0.0.2..v0.1.0) - 2025-10-12
 
 ### ⛰️  Features
