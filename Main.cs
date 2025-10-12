@@ -8,6 +8,7 @@ namespace HKSS.ShowHitbox;
 [BepInProcess(Utils.GameName)]
 [ConfigBind<KeyCode>("ToggleKey", SectionOptions, KeyCode.F11, "The toggle key to toggle the hitbox display.")]
 [ConfigBind<bool>("ShowHitbox", SectionOptions, false, "Show the hitbox.")]
+[ConfigBind<bool>("MoreInfos", SectionOptions, true, "Show more info.")]
 public partial class Main
 {
     private const string SectionOptions = "Options";

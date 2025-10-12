@@ -33,3 +33,8 @@ you can change any values in game instead.
     * Default: `false`
     * Description:
         * Show the hitbox.
+* `MoreInfos`
+    * Type: `boolean`
+    * Default: `true`
+    * Description:
+        * Show more info.

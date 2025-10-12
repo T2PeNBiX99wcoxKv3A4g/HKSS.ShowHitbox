@@ -10,7 +10,7 @@ public class MoreInfosController : MonoBehaviour
 
     private void OnGUI()
     {
-        if (!Configs.ShowHitbox) return;
+        if (!Configs.ShowHitbox || !Configs.MoreInfos) return;
         var cam = GameCameras.instance.mainCamera;
         if (!cam) return;
         var objScreenPos = cam.WorldToScreenPoint(transform.position);
