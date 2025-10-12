@@ -67,6 +67,9 @@
         <Reference Include="UnityEngine.CoreModule">
             <HintPath>..\HKSS.NoEnemies\Lib\UnityEngine.CoreModule.dll</HintPath>
         </Reference>
+        <Reference Include="UnityEngine.IMGUIModule">
+            <HintPath>Lib\UnityEngine.IMGUIModule.dll</HintPath>
+        </Reference>
         <Reference Include="UnityEngine.InputLegacyModule">
             <HintPath>..\HKSS.NoEnemies\Lib\UnityEngine.InputLegacyModule.dll</HintPath>
         </Reference>

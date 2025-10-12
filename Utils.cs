@@ -1,3 +1,5 @@
+global using HKSS.ShowHitbox.Extensions;
+
 namespace HKSS.ShowHitbox;
 
 public partial class Utils

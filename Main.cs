@@ -15,7 +15,7 @@ public partial class Main
 
     private void Update()
     {
-        if (!Input.GetKeyDown(Configs.ToggleKey)) return;
+        if (!UnityInput.Current.GetKeyDown(Configs.ToggleKey)) return;
         Configs.ShowHitbox = !Configs.ShowHitbox;
     }
 
