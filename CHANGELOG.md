@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.1.2](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/compare/v0.1.1..v0.1.2) - 2025-10-15
+
+### 🚜 Refactor
+
+- Replace `[UsedImplicitly]` with `[PublicAPI]` and remove redundant comment - ([1b4dd43](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/1b4dd43474e34f1fbad686f5e8a3ca1ab36ef19a))
+
+### ⚙️ Miscellaneous Tasks
+
+- Add BepInDependency attribute for BepInExUtils version 0.8.1 - ([1cd61a3](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/1cd61a3736cd5e115258fa2096baa503101ef827))
+- Update multiple library dependencies in `Lib` folder - ([80708af](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/80708afac0830bd71b567b491553b5efa4a190b3))
+- Update BepInExUtils and BepInExUtils.Generator libraries - ([3228a2b](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/3228a2b0d16a9d5fd1fcb9bf056d0ba277c21b6b))
+
+### Action
+
+- Update version in `Main.cs` and update `CHANGELOG.md` - ([70e6338](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/70e6338b110b703b48e022966b6d6cfd6945a723))
+
+
 ## [0.1.1](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/compare/v0.1.0..v0.1.1) - 2025-10-12
 
 ### 🐛 Bug Fixes
