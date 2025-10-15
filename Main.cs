@@ -5,6 +5,7 @@ using UnityEngine;
 namespace HKSS.ShowHitbox;
 
 [BepInUtils("io.github.ykysnk.HKSS.ShowHitbox", "Show Hitbox", Version)]
+[BepInDependency("io.github.ykysnk.BepinExUtils", "0.8.1")]
 [BepInProcess(Utils.GameName)]
 [ConfigBind<KeyCode>("ToggleKey", SectionOptions, KeyCode.F11, "The toggle key to toggle the hitbox display.")]
 [ConfigBind<bool>("ShowHitbox", SectionOptions, false, "Show the hitbox.")]
