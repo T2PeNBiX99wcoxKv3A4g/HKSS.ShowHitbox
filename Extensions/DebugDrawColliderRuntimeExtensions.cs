@@ -7,7 +7,7 @@ namespace HKSS.ShowHitbox.Extensions;
 [AccessInstance<DebugDrawColliderRuntime>]
 [AccessField<bool>("isInitialized")]
 [AccessField<DebugDrawColliderRuntime.ColorType>("type")]
-[UsedImplicitly]
+[PublicAPI]
 public static partial class DebugDrawColliderRuntimeExtensions
 {
 }

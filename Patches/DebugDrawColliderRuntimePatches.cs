@@ -1,8 +1,6 @@
 using HarmonyLib;
 using HKSS.ShowHitbox.Behaviour;
 
-// ReSharper disable InconsistentNaming
-
 namespace HKSS.ShowHitbox.Patches;
 
 [HarmonyPatch(typeof(DebugDrawColliderRuntime))]
