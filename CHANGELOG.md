@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.1.3](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/compare/v0.1.2..v0.1.3) - 2025-10-15
+
+### 🚜 Refactor
+
+- Reorder `DebugDrawColliderRuntime` initialization and rename `PostAwake` to `Init` - ([1b0a1af](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/1b0a1af1ebeb27d56d5f6b8fadb0d9fc7184ac05))
+
+### ⚙️ Miscellaneous Tasks
+
+- Update BepInExUtils and BepInExUtils.Generator in `Lib` folder - ([6ed114e](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/6ed114e4e3db2123a42479bc74188737573904f0))
+- Update BepInDependency attribute to require BepInExUtils version 0.9.0 - ([27a8569](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/27a85695b28dfe75bb2ef167c750beac111a9967))
+- Update BepInExUtils and BepInExUtils.Generator in `Lib` folder - ([342344e](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/342344ed070b80bba79ebd0158c0b3fff76c2844))
+- Update BepInExUtils.Generator.dll in `Lib` folder - ([2134e8e](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/2134e8efdc5303fd1344f8ce734819fc005b1c6c))
+- Update BepInExUtils.dll file in `Lib` folder - ([adcda98](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/adcda987c50822bd33edffef1090b2a2178aba8c))
+
+### Action
+
+- Update version in `Main.cs` and update `CHANGELOG.md` - ([e14682d](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/e14682dabbec0d1ccef7401431ec4626b2be1950))
+
+
 ## [0.1.2](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/compare/v0.1.1..v0.1.2) - 2025-10-15
 
 ### 🚜 Refactor
