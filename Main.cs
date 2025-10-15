@@ -21,7 +21,7 @@ public partial class Main
         Configs.ShowHitbox = !Configs.ShowHitbox;
     }
 
-    protected override void PostAwake()
+    public void Init()
     {
         Configs.OnShowHitboxValueChanged += OnToggleHitbox;
         DebugDrawColliderRuntime.IsShowing = Configs.ShowHitbox;

@@ -4,9 +4,9 @@ namespace HKSS.ShowHitbox.Behaviour;
 
 public class MoreInfosController : MonoBehaviour
 {
-    internal DebugDrawColliderRuntime? DebugDrawColliderRuntime;
     private const float Width = 200f;
     private const float Height = 200f;
+    internal DebugDrawColliderRuntime? DebugDrawColliderRuntime;
 
     private void OnGUI()
     {
