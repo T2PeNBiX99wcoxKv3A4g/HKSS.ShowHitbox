@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.4](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/compare/v0.1.3..v0.1.4) - 2025-10-19
+
+### ⚙️ Miscellaneous Tasks
+
+- Update BepInDependency attribute to require BepInExUtils version 1.0.0 - ([e7a9ef9](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/e7a9ef97c9b91f681052b23803c6ed16afd572e8))
+- Update BepInExUtils and BepInExUtils.Generator.dll in `Lib` folder - ([e7fd33c](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/e7fd33c962ec1676ce5079f06ed5e52f21ba48b4))
+- Update BepInExUtils.Generator.dll in `Lib` folder - ([971a32a](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/971a32a7121bf2faecc5dca373c1b3a8e5b61001))
+
+### Action
+
+- Update version in `Main.cs` and update `CHANGELOG.md` - ([12ff8aa](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/commit/12ff8aaaa4070c866966c3b1ed8a9cef95bc28b8))
+
+
 ## [0.1.3](https://github.com/T2PeNBiX99wcoxKv3A4g/HKSS.ShowHitbox/compare/v0.1.2..v0.1.3) - 2025-10-15
 
 ### 🚜 Refactor
